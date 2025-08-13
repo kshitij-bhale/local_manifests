@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
     <!-- Remote sources -->
-    <remote name="inv"		fetch="https://github.com/kshitij-inventory"		revision="lineage-22.2" />
+    <remote name="inv"		fetch="https://github.com/kshitij-inventory"		revision="A15" />
     <remote name="muppets"		fetch="https://github.com/TheMuppets"		revision="lineage-22.2" />
     <remote name="los"                  fetch="https://github.com/LineageOS"              revision="lineage-22.2" />
 
