@@ -2,23 +2,24 @@
 <manifest>
     <!-- Remote sources -->
     <remote name="inv"		fetch="https://github.com/kshitij-inventory"		revision="A15" />
+    <remote name="kshitij"		fetch="https://github.com/kshitij-bhale"		revision="A15" />
     <remote name="muppets"		fetch="https://github.com/TheMuppets"		revision="lineage-22.2" />
     <remote name="los"                  fetch="https://github.com/LineageOS"              revision="lineage-22.2" />
 
     <!-- Device trees -->
-    <project name="android_device_motorola_devon"	path="device/motorola/devon"	remote="inv" />
-    <project name="android_device_motorola_hawao"       path="device/motorola/hawao"    remote="inv" />
-    <project name="android_device_motorola_rhode" 	path="device/motorola/rhode"	remote="inv" />
-    <project name="android_device_motorola_sm6225-common"	path="device/motorola/sm6225-common"	remote="inv" />
+    <project name="android_device_motorola_devon"	path="device/motorola/devon"	remote="kshitij"     revision="clover-16" />
+<!--     <project name="android_device_motorola_hawao"       path="device/motorola/hawao"    remote="inv" /> -->
+<!--     <project name="android_device_motorola_rhode" 	path="device/motorola/rhode"	remote="inv" /> -->
+    <project name="android_device_motorola_sm6225-common"	path="device/motorola/sm6225-common"	remote="kshitij"     revision="clover-16"/>
 
     <!-- Vendor trees -->
     <project name="proprietary_vendor_motorola_devon"	path="vendor/motorola/devon"	remote="muppets" />
-    <project name="proprietary_vendor_motorola_hawao"	path="vendor/motorola/hawao"	remote="muppets" />
-    <project name="proprietary_vendor_motorola_rhode"	path="vendor/motorola/rhode"	remote="muppets" />
+<!--     <project name="proprietary_vendor_motorola_hawao"	path="vendor/motorola/hawao"	remote="muppets" /> -->
+<!--     <project name="proprietary_vendor_motorola_rhode"	path="vendor/motorola/rhode"	remote="muppets" /> -->
     <project name="proprietary_vendor_motorola_sm6225-common"	path="vendor/motorola/sm6225-common"	remote="muppets" />
     
     <!-- Kernel source -->
-    <project name="DanceKernel"	path="kernel/motorola/sm6225"	remote="inv" 		revision="main" />
+    <project name="DanceKernel"	    path="kernel/motorola/sm6225"	remote="inv" 		revision="A16" />
 
     <!-- Hardware dependency -->
     <project name="hardware_motorola"	path="hardware/motorola"	remote="inv"     revision="A15"/>
