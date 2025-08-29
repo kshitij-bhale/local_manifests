@@ -8,13 +8,13 @@
 
     <!-- Device trees -->
     <project name="android_device_motorola_devon"	path="device/motorola/devon"	remote="kshitij"     revision="test" />
-<!--     <project name="android_device_motorola_hawao"       path="device/motorola/hawao"    remote="kshitij"     revision="axion-16" /> -->
+    <project name="android_device_motorola_hawao"       path="device/motorola/hawao"    remote="kshitij"     revision="axion-16" />
 <!--     <project name="android_device_motorola_rhode" 	path="device/motorola/rhode"	remote="kshitij"     revision="axion-16" /> -->
     <project name="android_device_motorola_sm6225-common"	path="device/motorola/sm6225-common"	remote="kshitij"     revision="A15" />
 
     <!-- Vendor trees -->
     <project name="proprietary_vendor_motorola_devon"	path="vendor/motorola/devon"	remote="muppets" />
-<!--     <project name="proprietary_vendor_motorola_hawao"	path="vendor/motorola/hawao"	remote="muppets" /> -->
+    <project name="proprietary_vendor_motorola_hawao"	path="vendor/motorola/hawao"	remote="muppets" />
 <!--     <project name="proprietary_vendor_motorola_rhode"	path="vendor/motorola/rhode"	remote="muppets" /> -->
     <project name="proprietary_vendor_motorola_sm6225-common"	path="vendor/motorola/sm6225-common"	remote="muppets" />
     
