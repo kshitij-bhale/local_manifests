@@ -3,14 +3,14 @@
     <!-- Remote sources -->
     <remote name="kshitij"		fetch="https://github.com/kshitij-bhale"		revision="A15" />
     <remote name="inv"		fetch="https://github.com/kshitij-inventory"		revision="A15" />
-    <remote name="muppets"		fetch="https://github.com/TheMuppets"		revision="lineage-22.2" />
+    <remote name="muppets"		fetch="https://github.com/TheMuppets"		revision="lineage-23.0" />
     <remote name="los"                  fetch="https://github.com/LineageOS"              revision="lineage-22.2" />
 
     <!-- Device trees -->
     <project name="android_device_motorola_devon"	path="device/motorola/devon"	remote="kshitij"     revision="axion-16" />
     <project name="android_device_motorola_hawao"       path="device/motorola/hawao"    remote="kshitij"     revision="axion-16" />
     <project name="android_device_motorola_rhode" 	path="device/motorola/rhode"	remote="kshitij"     revision="axion-16" />
-    <project name="android_device_motorola_sm6225-common"	path="device/motorola/sm6225-common"	remote="kshitij"     revision="axion-16" />
+    <project name="android_device_motorola_sm6225-common"	path="device/motorola/sm6225-common"	remote="kshitij"     revision="A15" />
 
     <!-- Vendor trees -->
     <project name="proprietary_vendor_motorola_devon"	path="vendor/motorola/devon"	remote="muppets" />
