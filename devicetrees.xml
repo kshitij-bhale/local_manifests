@@ -22,5 +22,5 @@
     <project name="DanceKernel"	path="kernel/motorola/sm6225"	remote="inv" 		revision="A16" />
 
     <!-- Hardware dependency -->
-    <project name="hardware_motorola"	path="hardware/motorola"	remote="inv"     revision="test"/>
+    <project name="hardware_motorola"	path="hardware/motorola"	remote="inv"     revision="A16"/>
 </manifest>
