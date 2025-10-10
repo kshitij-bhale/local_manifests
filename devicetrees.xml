@@ -5,6 +5,7 @@
     <remote name="inv"		fetch="https://github.com/kshitij-inventory"		revision="A15" />
     <remote name="muppets"		fetch="https://github.com/TheMuppets"		revision="lineage-23.0" />
     <remote name="los"                  fetch="https://github.com/LineageOS"              revision="lineage-22.2" />
+    <remote name="gitlab" fetch="https://gitlab.com/" />
 
     <!-- Device trees -->
     <project name="android_device_motorola_devon"	path="device/motorola/devon"	remote="kshitij"     revision="vol-16" />
