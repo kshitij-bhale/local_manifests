@@ -5,6 +5,7 @@
     <remote name="inv"		fetch="https://github.com/kshitij-inventory"		revision="A15" />
     <remote name="muppets"		fetch="https://github.com/TheMuppets"		revision="lineage-23.0" />
     <remote name="los"                  fetch="https://github.com/LineageOS"              revision="lineage-22.2" />
+    <remote name="gitlab" fetch="https://gitlab.com/" />
 
     <!-- Device trees -->
     <project name="android_device_motorola_devon"	path="device/motorola/devon"	remote="kshitij"     revision="axion-16" />
@@ -17,6 +18,15 @@
     <project name="proprietary_vendor_motorola_hawao"	path="vendor/motorola/hawao"	remote="muppets" />
     <project name="proprietary_vendor_motorola_rhode"	path="vendor/motorola/rhode"	remote="muppets" />
     <project name="proprietary_vendor_motorola_sm6225-common"	path="vendor/motorola/sm6225-common"	remote="muppets" />
+
+     <!-- MotoCamera (Thanks @Deivid21)-->
+    <project name="Deivid21/proprietary_vendor_motorola_MotoSignatureApp" path="vendor/motorola/MotoSignatureApp" remote="gitlab" revision="android-15"/>
+    <project name="Deivid21/proprietary_vendor_motorola_MotorolaSettingsProvider" path="vendor/motorola/MotorolaSettingsProvider" remote="gitlab" revision="android-15"/>
+    <project name="Deivid21/proprietary_vendor_motorola_MotoPhotoEditor" path="vendor/motorola/MotoPhotoEditor" remote="gitlab" revision="android-15"/>
+    <project name="Deivid21/proprietary_vendor_motorola_MotCamera-common" path="vendor/motorola/MotCamera-common"  remote="gitlab" revision="android-15"/>
+    <project name="Deivid21/proprietary_vendor_motorola_MotCamera4-bengal" path="vendor/motorola/MotCamera4-bengal" remote="gitlab" revision="android-15"/>
+    <project name="Deivid21/proprietary_vendor_motorola_MotCameraAI-common" path="vendor/motorola/MotCameraAI-common" remote="gitlab" revision="android-15"/>
+    <project name="Deivid21/proprietary_vendor_motorola_MotCamera3AI-bengal" path="vendor/motorola/MotCamera3AI-bengal" remote="gitlab" revision="android-15"/>
     
     <!-- Kernel source -->
     <project name="DanceKernel"	path="kernel/motorola/sm6225"	remote="inv" 		revision="A16" />
