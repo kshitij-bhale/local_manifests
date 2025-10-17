@@ -6,6 +6,7 @@
     <remote name="muppets"		fetch="https://github.com/TheMuppets"		revision="lineage-22.2" />
     <remote name="los"                  fetch="https://github.com/LineageOS"              revision="lineage-22.2" />
     <remote name="gitlab" fetch="https://gitlab.com/" />
+    <remote name="github" fetch="https://github.com/" />
 
     <!-- Device trees -->
     <project name="android_device_motorola_devon"	path="device/motorola/devon"	remote="kshitij"     revision="clover-16" />
