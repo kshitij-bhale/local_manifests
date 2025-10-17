@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  
+  <!-- Remove the original AOSP Settings to prevent conflicts -->
+  <remove-project name="packages/apps/Settingss" />
+  <remove-project name="vendor/clover" />
+  
+  <!-- Add your forked version of Settings -->
+  <project path="packages/apps/Settings" name="kshitij-bhale/packages_apps_Settings" remote="github" revision="16" />
+  
+  <!-- Add your vendor repository -->
+  <project path="vendor/clover" name="kshitij-bhale/vendor_clover" remote="github" revision="16" />
+
+</manifest>
