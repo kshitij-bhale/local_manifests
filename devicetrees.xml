@@ -3,10 +3,10 @@
     <!-- Remote sources -->
     <remote name="inv"		fetch="https://github.com/kshitij-inventory"		revision="A15" />
     <remote name="kshitij"		fetch="https://github.com/kshitij-bhale"		revision="A15" />
-    <remote name="muppets"		fetch="https://github.com/TheMuppets"		revision="lineage-22.2" />
-    <remote name="los"                  fetch="https://github.com/LineageOS"              revision="lineage-22.2" />
-    <remote name="gitlab" fetch="https://gitlab.com/" />
-    <remote name="github" fetch="https://github.com/" />
+    <remote name="muppets"		fetch="https://github.com/TheMuppets"		revision="lineage-23.0" />
+    <remote name="los"                  fetch="https://github.com/LineageOS"              revision="lineage-23.0" />
+    <!-- <remote name="gitlab" fetch="https://gitlab.com/" />
+    <remote name="github" fetch="https://github.com/" /> -->
 
     <!-- Device trees -->
     <project name="android_device_motorola_devon"	path="device/motorola/devon"	remote="kshitij"     revision="clover-16" />
@@ -24,15 +24,15 @@
     <project name="DanceKernel"	    path="kernel/motorola/sm6225"	remote="inv" 		revision="A16" />
 
     <!-- Hardware dependency -->
-    <project name="hardware_motorola"	path="hardware/motorola"	remote="inv"     revision="A16"/>
+    <project name="android_hardware_motorola"	path="hardware/motorola"	remote="los"     revision="lineage-23.0"/>
 
     <!-- MotoCamera (Thanks @Deivid21)-->
-    <project name="Deivid21/proprietary_vendor_motorola_MotoSignatureApp" path="vendor/motorola/MotoSignatureApp" remote="gitlab" revision="android-15"/>
+    <!-- <project name="Deivid21/proprietary_vendor_motorola_MotoSignatureApp" path="vendor/motorola/MotoSignatureApp" remote="gitlab" revision="android-15"/>
     <project name="Deivid21/proprietary_vendor_motorola_MotorolaSettingsProvider" path="vendor/motorola/MotorolaSettingsProvider" remote="gitlab" revision="android-15"/>
     <project name="Deivid21/proprietary_vendor_motorola_MotoPhotoEditor" path="vendor/motorola/MotoPhotoEditor" remote="gitlab" revision="android-15"/>
     <project name="Deivid21/proprietary_vendor_motorola_MotCamera-common" path="vendor/motorola/MotCamera-common"  remote="gitlab" revision="android-15"/>
     <project name="Deivid21/proprietary_vendor_motorola_MotCamera4-bengal" path="vendor/motorola/MotCamera4-bengal" remote="gitlab" revision="android-15"/>
     <project name="Deivid21/proprietary_vendor_motorola_MotCameraAI-common" path="vendor/motorola/MotCameraAI-common" remote="gitlab" revision="android-15"/>
-    <project name="Deivid21/proprietary_vendor_motorola_MotCamera3AI-bengal" path="vendor/motorola/MotCamera3AI-bengal" remote="gitlab" revision="android-15"/>
+    <project name="Deivid21/proprietary_vendor_motorola_MotCamera3AI-bengal" path="vendor/motorola/MotCamera3AI-bengal" remote="gitlab" revision="android-15"/> -->
 
 </manifest>
