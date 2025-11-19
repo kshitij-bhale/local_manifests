@@ -21,7 +21,7 @@
     <project name="proprietary_vendor_motorola_sm6225-common"	path="vendor/motorola/sm6225-common"	remote="muppets" />
     
     <!-- Kernel source -->
-    <project name="DanceKernel"	    path="kernel/motorola/sm6225"	remote="inv" 		revision="A16" />
+    <project name="DanceKernel"	    path="kernel/motorola/sm6225"	remote="inv" 		revision="lineage-23.0" />
 
     <!-- Hardware dependency -->
     <project name="android_hardware_motorola"	path="hardware/motorola"	remote="los"     revision="lineage-23.0"/>
