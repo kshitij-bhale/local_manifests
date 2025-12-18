@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
     <!-- Remote sources -->
-    <remote name="inv"		fetch="https://github.com/kshitij-inventory"		revision="lineage*23.0" />
-    <remote name="muppets"		fetch="https://github.com/TheMuppets"		revision="lineage-23.0" />
-    <remote name="los"                  fetch="https://github.com/LineageOS"              revision="lineage-22.2" />
+    <remote name="github" fetch="https://github.com/" />
+    <remote name="gitlab" fetch="https://gitlab.com/" />
 
     <!-- Device trees -->
-    <project name="android_device_motorola_devon"	path="device/motorola/devon"	remote="los" />
-    <project name="android_device_motorola_hawao"       path="device/motorola/hawao"    remote="los" />
-    <project name="android_device_motorola_rhode" 	path="device/motorola/rhode"	remote="los" />
-    <project name="android_device_motorola_sm6225-common"	path="device/motorola/sm6225-common"	remote="los" />
+    <project name="LineageOS/android_device_motorola_devon"	path="device/motorola/devon"	remote="github"     revision="lineage-23.2" />
+    <project name="LineageOS/android_device_motorola_hawao"       path="device/motorola/hawao"    remote="github"     revision="lineage-23.2" />
+    <project name="LineageOS/android_device_motorola_rhode" 	path="device/motorola/rhode"	remote="github"     revision="lineage-23.2" />
+    <project name="LineageOS/android_device_motorola_sm6225-common"	path="device/motorola/sm6225-common"	remote="github"     revision="lineage-23.2" />
 
     <!-- Vendor trees -->
-    <project name="proprietary_vendor_motorola_devon"	path="vendor/motorola/devon"	remote="muppets" />
-    <project name="proprietary_vendor_motorola_hawao"	path="vendor/motorola/hawao"	remote="muppets" />
-    <project name="proprietary_vendor_motorola_rhode"	path="vendor/motorola/rhode"	remote="muppets" />
-    <project name="proprietary_vendor_motorola_sm6225-common"	path="vendor/motorola/sm6225-common"	remote="muppets" />
+    <project name="TheMuppets/proprietary_vendor_motorola_devon"	path="vendor/motorola/devon"	remote="github"     revision="lineage-23.2"/>
+    <project name="TheMuppets/proprietary_vendor_motorola_hawao"	path="vendor/motorola/hawao"	remote="github"     revision="lineage-23.2"/>
+    <project name="TheMuppets/proprietary_vendor_motorola_rhode"	path="vendor/motorola/rhode"	remote="github"     revision="lineage-23.2"/>
+    <project name="TheMuppets/proprietary_vendor_motorola_sm6225-common"	path="vendor/motorola/sm6225-common"	remote="github"     revision="lineage-23.2"/>
     
     <!-- Kernel source -->
-    <project name="DanceKernel"	path="kernel/motorola/sm6225"	remote="inv" 		revision="A16" />
+    <project name="LineageOS/android_kernel_motorola_sm6225" path="kernel/motorola/sm6225" remote="github" revision="lineage-23.2"/>
 
     <!-- Hardware dependency -->
-    <project name="android_hardware_motorola"	path="hardware/motorola"	remote="los"     revision="lineage-23.0"/>
+    <project name="LineageOS/android_hardware_motorola" path="hardware/motorola" remote="github" revision="lineage-23.2"/>
+    <project name="SM6225-Motorola/hardware_dolby" path="hardware/dolby" remote="github" revision="A16"/>
 </manifest>
